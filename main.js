@@ -13,7 +13,7 @@ var loremIpsum = require('lorem-ipsum')
 
 
 
-app.get('/hello/:name', function (req, res) {
+app.get('/lorem', function (req, res) {
   res.send(output);
 });
   app.listen(3000, function(){
